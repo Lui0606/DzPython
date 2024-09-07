@@ -6,7 +6,6 @@ word_list = ['_' for i in word]
 # print(word_list)
 
 lives = 3
-
 while True:
     user_letter = input('Введи букву: ')
     find_letter = False
