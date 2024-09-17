@@ -10,8 +10,8 @@ print(rate(rub=300, dollar=0.011))
 
 def age(years):
     if years < 18:
-        print('Доступно только лицам 18+')
+        print('False')
     elif years >= 18:
-        print('Доступ разрешён')
+        print('True')
 
 age(20)
